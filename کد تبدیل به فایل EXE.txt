@@ -1,0 +1,5 @@
+توی آدرس بار پوشه که ترجیحا نام فارسی نداشته باشه مینویسی cmd
+و اینتر میززنی تا Cmd
+در مسیر پوشه باز بشه
+
+pyinstaller --onefile --windowed --icon=app.ico --add-data "app.ico;." --add-data "Vazirmatn-Bold.ttf;." birthday_app.py

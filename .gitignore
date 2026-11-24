@@ -1,0 +1,17 @@
+# بیلد
+build/
+dist/
+*.spec
+__pycache__/
+Feil Code/
+
+# داده و فشرده‌ها
+*.exe
+*.xlsx
+*.rar
+*.zip
+birthdays.json
+*.db
+
+# سیستم
+Thumbs.db

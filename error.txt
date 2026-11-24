@@ -1,0 +1,19 @@
+Python 3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+
+================ RESTART: E:\Pyton\BirthDay\birthday_app_pro.py ================
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2068, in __call__
+    return self.func(*args)
+           ~~~~~~~~~^^^^^^^
+  File "E:\Pyton\BirthDay\birthday_app_pro.py", line 715, in <lambda>
+    self.search_var.trace("w", lambda *args: self.refresh_table())
+                                             ~~~~~~~~~~~~~~~~~~^^
+  File "E:\Pyton\BirthDay\birthday_app_pro.py", line 851, in refresh_table
+    for i in self.tree.get_children():
+             ^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2546, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'tree'
+il
